@@ -31,8 +31,8 @@ TODO:
 
 #### Step 2: Add Filter List
 * [Subscribe to Core filter - Broken]()
-* [Subscribe to Adguard extension - Broken]()
-* [Subscribe to uBlock Origin FireFox extension - Broken]()
+* [Subscribe to Adguard extension filter - Broken]()
+* [Subscribe to uBlock Origin FireFox extension filter - Broken]()
 
 > ##### Note: Please first check your Adblocker settings page to see if the filter is listed. 
 > ##### Note: Extension filters runs alongside core. 
