@@ -86,8 +86,6 @@ TrackerBlock, Kaspersky Anti-Banner, Freebox (Anti-pub), No Script, YesScript, H
 * Force an update in Adblocker settings.
 * Force an update in Script Host settings.
 * Try with another Browser or Script Host. Don't want to switch? [Open an issue](https://gitlab.com/xuhaiyang1234/AAK-Cont/issues) and let us know.
-* How to disable the update check [Settings](https://xuhaiyang1234.gitlab.io/AAK-Cont/)
-* How to disable the list check [Settings](https://xuhaiyang1234.gitlab.io/AAK-Cont/)
 * How write Adblock filters [here](https://adblockplus.org/en/filters)
 * Where can report an advertisement [here](https://forums.lanik.us/)
 * A website does not work? Please report it [here](https://gitlab.com/xuhaiyang1234/AAK-Cont/issues)
