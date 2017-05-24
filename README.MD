@@ -58,6 +58,7 @@ Please put those filters in the AdBlock / Adblock Plus extension filter so other
 Please make resonable effort to make Userscript rules compatible with Greasemonkey. 
 
 Code submitted to Merge Request will go over minimal review before being merged, your requestes will be processed fast. 
+One drawback is that the merge can break the code. You may be blocked from submitting new Merge Request if your code is constantly causing problems. 
 
 Are you a reputable developer who code a lot and want to directly write to the repository? Let me know and I will give you write access. 
 Some critical files are protected (locked) and you must ask me to change them (open an issue). 
