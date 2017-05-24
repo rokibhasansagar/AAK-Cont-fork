@@ -41,7 +41,7 @@ Can you help with any of these? Bring in those Merge Requests!
 > ##### Note: Extension filters runs alongside core. 
 
 #### Step 3: Install Userscript
-* [Install - Broken](https://gitlab.com/xuhaiyang1234/AAK-Cont/raw/master/source/anti-adblock-killer.user.js)
+* [Install](https://gitlab.com/xuhaiyang1234/AAK-Cont/raw/master/source/anti-adblock-killer.user.js)
 
 > ##### Note: [Test: BlockAdBlock](https://blockadblock.com/) [Test: Antiblock](http://antiblock.org/?p=v3&demo)
 
