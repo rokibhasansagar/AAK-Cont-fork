@@ -92,8 +92,8 @@
       Aak.registerSettings(); // registering your settings.
       Aak.registerConsole(); // registering customzed console.
       Aak.registerCommands(); // add commands to menu
-      Aak.checkUpdate(true); // check if AakScript is up to date.
-      Aak.checkList(); // check if AakList is enabled.
+      //Aak.checkUpdate(true); // check if AakScript is up to date.
+      //Aak.checkList(); // check if AakList is enabled.
       Aak.blockDetect(); // detect and kill anti-adblocks.
     },
     aabs : {},
@@ -120,6 +120,7 @@
         label : 'Play video with VLC plugin. *',
         info : ''
       },
+      /*
       checkList : {
         group : 'general',
         type : 'checkbox',
@@ -133,7 +134,7 @@
         value : true,
         label : 'Check newer AakScript version.',
         info : ''
-      },
+      },*/
       debug : {
         group : 'debug',
         type : 'checkbox',
@@ -407,7 +408,7 @@
 
       }
     },
-    checkList : function () {
+    checkList : function () {return;
       if (Aak.useGM && Aak.opts.checkList && Aak.isTopframe) {
         Aak.schedule(1, 'nextchecklist', function () {
           Aak.ready(function () {
@@ -432,7 +433,7 @@
       }
     },
     checkUpdate : function (auto) {
-
+return;
       var check = function (notifyFalse) {
         Aak.request({
           url : Aak.downloadURL,
