@@ -22,7 +22,7 @@
 > ##### Note: After installation (which may require restarting your browser), you are now ready to install userscripts. 
 
 #### Step 2: Install Userscript
-* [Click here to install](https://gitlab.com/xuhaiyang1234/AAK-Cont/raw/master/source/anti-adblock-killer.user.js)
+* [Click here to install](https://gitlab.com/xuhaiyang1234/AAK-Cont/raw/master/source/aak-cont-script.user.js)
 
 > ##### Note: [Test: BlockAdBlock](https://blockadblock.com/) [Test: Antiblock](http://antiblock.org/?p=v3&demo)
 
@@ -63,30 +63,29 @@ Some critical files are protected (locked) and you must ask me to change them (p
 ## Help
 * Check if you have only one Adblocker enabled. (Adblock, Adblock Plus or uBlock Origin)
 * Check if the script manager is enabled (Greasemonkey, Tampermonkey, NinjaKit, etc...).
-* Check if you have installed the latest version of Anti-Adblock Killer Script (Step 3).
-* Check if you have subscribed to Anti-Adblock Killer List (Step 2).
-* Check if Anti-Adblock Killer Script is enabled.
-* Check if Anti-Adblock Killer List is enabled.
-* Try update or re-install Anti-Adblock Killer Script.
-* Try update or re-subscribe Anti-Adblock Killer List.
-* Check if you have another userscript that might interfere with Anti-Adblock Killer.
-* Check if one of these extensions is problematic (Disable Anti-Adblock, Ghostery, Online Security Avast, Donotrackme, Privacy Badger, Disconnect, Blur, TrackerBlock, Kaspersky Anti-Banner, Freebox (Anti-pub), No Script, YesScript, HTTPS Everywhere).
+* Check if you have installed the latest version of AAK-Cont Script (Step 2).
+* Check if you have subscribed to AAK-Cont filter lists (Step 3).
+* Check if AAK-Cont Script is enabled.
+* Check if AAK-Cont filter lists are enabled.
+* Try update or re-install AAK-Cont Script.
+* Try update or re-subscribe AAK-Cont filter lists.
+* Check if you have another userscript that might interfere with AAK-Cont (e.g. AdBlock Protector).
+* Check if one of these extensions is problematic (Disable Anti-Adblock, Ghostery, Online Security Avast, Donotrackme, Privacy Badger, Disconnect, Blur, 
+TrackerBlock, Kaspersky Anti-Banner, Freebox (Anti-pub), No Script, YesScript, HTTPS Everywhere).
 * Check if, your JavaScript is enabled [Test](http://activatejavascript.org/).
-* Remove duplicates Anti-Adblock Killer (Script/List).
+* Remove duplicates AAK-Cont Script / filter lists.
 * Remove or disable personal filters.
 * Enable only the filter lists you need, too many can make your browser unresponsive.
-* Force an update Adblocker lists
-* Force an update Script Manager
-* Check if the site is in "Supported Sites" or in "Changelog".
-  * If the site is not in it, please report it [here](https://gitlab.com/xuhaiyang1234/AAK-Cont/issues).
-  * If it exists, but the script does not work, it probably means that the antiadblocker has changed, please report it [here](https://gitlab.com/xuhaiyang1234/AAK-Cont/issues)
+* Force an update in Adblocker lists.
+* Force an update in Script Host.
 * Try with another Browser.
-* Try with another Script Manager.
+* Try with another Script Host.
 * How to disable the update check [Settings](https://xuhaiyang1234.gitlab.io/AAK-Cont/)
 * How to disable the list check [Settings](https://xuhaiyang1234.gitlab.io/AAK-Cont/)
 * How write Adblock filters [here](https://adblockplus.org/en/filters)
 * Where can report an advertisement [here](https://forums.lanik.us/)
-* Consult Discussions or Issues
+* A website does not work? Please report it [here](https://gitlab.com/xuhaiyang1234/AAK-Cont/issues)
+* Need help with installation? Ask for help [here](https://gitlab.com/xuhaiyang1234/AAK-Cont/issues)
 
 ## Supported Browsers
 * ![Chrome](images/browsers/chrome.png) Chrome &#10004;
