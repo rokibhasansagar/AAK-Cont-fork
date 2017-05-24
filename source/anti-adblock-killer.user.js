@@ -3,14 +3,14 @@
 // @namespace https://userscripts.org/scripts/show/155840
 // @description Helps you keep your Ad-Blocker active, when you visit a website and it asks you to disable.
 // @author Reek
-// @version 1.0
+// @version 1.001
 // @encoding utf-8
 // @license https://creativecommons.org/licenses/by-sa/4.0/
 // @icon https://gitlab.com/xuhaiyang1234/AAK-Cont/raw/master/images/icon.png
 // @homepage https://xuhaiyang1234.gitlab.io/AAK-Cont/
 // @supportURL https://gitlab.com/xuhaiyang1234/AAK-Cont/issues
-// @updateURL !!!!!TODO!!!!!!
-// @downloadURL !!!!!TODO!!!!!
+// @updateURL https://gitlab.com/xuhaiyang1234/AAK-Cont/raw/master/source/anti-adblock-killer.user.js
+// @downloadURL https://gitlab.com/xuhaiyang1234/AAK-Cont/raw/master/source/anti-adblock-killer.user.js
 // @include http://*/*
 // @include https://*/*
 // @grant unsafeWindow
@@ -82,9 +82,9 @@
     contactURL : 'https://xuhaiyang1234.gitlab.io/AAK-Cont/',
     settingsURL : 'https://xuhaiyang1234.gitlab.io/AAK-Cont/settings.html',
     twitterURL : 'https://twitter.com/',
-    downloadURL : '!!!!!!!! TODO!!!!!!!!',
+    downloadURL : 'https://gitlab.com/xuhaiyang1234/AAK-Cont/raw/master/source/anti-adblock-killer.user.js',
     subscribeURL : 'https://xuhaiyang1234.gitlab.io/AAK-Cont/',
-    listURL : "!!!!!! raw list TODO!!!!!!!!",
+    listURL : "https://gitlab.com/xuhaiyang1234/AAK-Cont/raw/master/source/aak-cont-filter-core.txt",
     nativeURL : 'https://xuhaiyang1234.gitlab.io/AAK-Cont/',
     iconURL : 'https://gitlab.com/xuhaiyang1234/AAK-Cont/raw/master/images/icon.png',
     imgBait : 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAQAAADZc7J/AAAAGklEQVR42mNg0GAYBaNgFIyCUTAKRsEoQAYATN8AKYNZ/x4AAAAASUVORK5CYII=',
