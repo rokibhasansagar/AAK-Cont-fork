@@ -4,19 +4,9 @@
 
 ### Let's revive our beloved Anti-Adblock Killer! 
 
-# Initial Stage: Searching for core developers! 
+### Beta test! Let us know what works / doesn't work
 
-### This project is not yet ready to serve, we are still looking for core developers who can make this possible. 
-
-Do you want to help? Please head over to Issues page and let me know! 
-
-TODO: 
-
-1. Create filter list subscription portal, and fix broken links (I do not want to rely on original AAK pages)
-2. Patch Userscript vulnerabilities and break it into two parts so community rules can be inserted in between
-3. Make compilers so community rules can be nicely and safely compiled
-
-Can you help with any of these? Bring in those Merge Requests! 
+### We are looking for contributors, head over to Issues page and let me know. 
 
 ## Instruction
 
