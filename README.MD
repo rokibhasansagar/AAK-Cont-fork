@@ -54,6 +54,8 @@ Please put those filters in the AdBlock / Adblock Plus extension filter so other
 
 Please make resonable effort to make Userscript rules compatible with Greasemonkey. 
 
+Version number **MUST** be a valid float point with 3 digits after the decimal place. This restriction is due to a limitation in the Userscript. 
+
 Code submitted to Merge Request will go over minimal review before being merged, your requestes will be processed fast. 
 One drawback is that the merge can break the code. You may be blocked from submitting new Merge Request if your code is constantly causing problems. 
 
