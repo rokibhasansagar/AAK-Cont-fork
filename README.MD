@@ -68,7 +68,7 @@ Some critical files are protected (locked) and you must ask me to change them (p
 * Check if Anti-Adblock Killer list is installed
 * Check & Notify updates
 * More filters for Adblockers
-* [Settings - Broken]()
+* [Settings](https://xuhaiyang1234.gitlab.io/AAK-Cont/)
 * [Suggest features](https://gitlab.com/xuhaiyang1234/AAK-Cont/issues)
 
 ## Help
@@ -89,12 +89,12 @@ Some critical files are protected (locked) and you must ask me to change them (p
 * Force an update Adblocker lists
 * Force an update Script Manager
 * Check if the site is in "Supported Sites" or in "Changelog".
-  * If the site is not in it, please report it [here - Broken]().
-  * If it exists, but the script does not work, it probably means that the antiadblocker has changed, please report it [here - Broken]()
+  * If the site is not in it, please report it [here](https://gitlab.com/xuhaiyang1234/AAK-Cont/issues).
+  * If it exists, but the script does not work, it probably means that the antiadblocker has changed, please report it [here](https://gitlab.com/xuhaiyang1234/AAK-Cont/issues)
 * Try with another Browser.
 * Try with another Script Manager.
-* How to disable the update check [Settings - Broken]()
-* How to disable the list check [Settings - Broken]()
+* How to disable the update check [Settings](https://xuhaiyang1234.gitlab.io/AAK-Cont/)
+* How to disable the list check [Settings](https://xuhaiyang1234.gitlab.io/AAK-Cont/)
 * How write Adblock filters [here](https://adblockplus.org/en/filters)
 * Where can report an advertisement [here](https://forums.lanik.us/)
 * Consult Discussions or Issues
