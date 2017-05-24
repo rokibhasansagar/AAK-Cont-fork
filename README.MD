@@ -6,7 +6,7 @@
 
 # Initial Stage: Searching for core developers! 
 
-This project is not yet ready to serve, we are still looking for core developers who can make this possible. 
+### This project is not yet ready to serve, we are still looking for core developers who can make this possible. 
 
 Do you want to help? Please head over to Issues page and let me know! 
 
@@ -23,22 +23,22 @@ TODO:
 #### Step 1: Install Script Host
 * ![Chrome](images/browsers/chrome.png) [Tampermonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo)
 * ![Opera](images/browsers/opera.png) [Tampermonkey](https://addons.opera.com/extensions/details/tampermonkey-beta/) or [Violentmonkey](https://addons.opera.com/extensions/details/violent-monkey/) 
-* ![FireFox](images/browsers/firefox.png) [Greasemonkey](https://addons.mozilla.org/firefox/addon/greasemonkey/)
+* ![FireFox](images/browsers/firefox.png) [Tampermonkey](https://addons.mozilla.org/en-us/firefox/addon/tampermonkey/) or [Greasemonkey](https://addons.mozilla.org/firefox/addon/greasemonkey/)
 * ![Safari](images/browsers/safari.png) [Tampermonkey](https://safari.tampermonkey.net/tampermonkey.safariextz) or [NinjaKit](https://github.com/os0x/NinjaKit)
 * ![Edge](images/browsers/msedge.png) [Tampermonkey](https://www.microsoft.com/store/p/tampermonkey/9nblggh5162s)
 
 > ##### Note: After installation (which requires restarting your browser), you are now ready to install userscripts. 
 
 #### Step 2: Add Filter List
-* [Subscribe to Core filter - Broken](example.com)
-* [Subscribe to Adguard extension - Broken](example.com)
-* [Subscribe to uBlock Origin FireFox extension - Broken](example.com)
+* [Subscribe to Core filter - Broken]()
+* [Subscribe to Adguard extension - Broken]()
+* [Subscribe to uBlock Origin FireFox extension - Broken]()
 
 > ##### Note: Please first check your Adblocker settings page to see if the filter is listed. 
 > ##### Note: Extension filters runs alongside core. 
 
 #### Step 3: Install Userscript
-* [Install](example.com)
+* [Install - Broken]()
 
 > ##### Note: [Test: BlockAdBlock](https://blockadblock.com/) [Test: Antiblock](http://antiblock.org/?p=v3&demo)
 
@@ -46,12 +46,15 @@ TODO:
 
 This is a Merge Request driven community effort to bring back our beloved Anti-Adblock Killer. 
 
+Every new solution are required to be "stand alone", so every part of this project can work alone. 
+I realized that the solutions won't be complete this way, but it is better than causing more breakage due to partial installation. 
+
+Please make resonable effort to make Userscript rules compatible with Greasemonkey. 
+
 Code submitted to Merge Request will go over minimal review before being merged, your requestes will be processed fast. 
 
 Are you a reputable developer who code a lot and want to directly write to the repository? Let me know and I will give you write access. 
-
-Be aware that some critical files are protected (locked) and I am the only person who can change them. 
-If you believe it is needed to change them, please let me know. 
+Some critical files are protected (locked) and you must ask me to change them (open an issue). 
 
 ## Features
 * Detect & Kill Anti-Adblockers
