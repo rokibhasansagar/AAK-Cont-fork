@@ -32,10 +32,7 @@ Can you help with any of these? Bring in those Merge Requests!
 > ##### Note: After installation (which requires restarting your browser), you are now ready to install userscripts. 
 
 #### Step 2: Add Filter List
-* [Subscribe to Core filter - Broken]()
-* [Subscribe to Adguard extension filter - Broken]()
-* [Subscribe to uBlock Origin extension filter - Broken]()
-* [Subscribe to AdBlock / Adblock Plus extension filter - Broken]()
+* [Subscribe from GitLab](https://xuhaiyang1234.gitlab.io/AAK-Cont/index.html#filterlist)
 
 > ##### Note: Please first check your Adblocker settings page to see if the filter is listed. 
 > ##### Note: Extension filters runs alongside core. 
