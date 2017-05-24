@@ -1,8 +1,5 @@
 pages:
   stage: deploy
-  script:
-  - mkdir public
-  - cp -r html/* public
   artifacts:
     paths:
     - public
