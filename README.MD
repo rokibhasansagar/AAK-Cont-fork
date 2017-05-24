@@ -1,6 +1,6 @@
 # Anti-Adblock Killer Continued
 
-![header]()
+![header](images/header.png)
 
 Let's revive our beloved Anti-Adblock Killer! 
 
