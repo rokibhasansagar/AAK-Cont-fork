@@ -50,7 +50,10 @@ Can you help with any of these? Bring in those Merge Requests!
 This is a Merge Request driven community effort to bring back our beloved Anti-Adblock Killer. 
 
 Every new solution are required to be "stand alone", so every part of this project can work alone. 
-I realized that the solutions won't be complete this way, but it is better than causing more breakage due to partial installation. 
+I know that the solutions won't be complete this way, but it is better than causing more breakage due to partial installation. 
+
+White listing is not ideal, but in the case of AdBlock and Adblock Plus, there may not be an alternative. 
+Please put those filters in the AdBlock / Adblock Plus extension filter so other users won't need to watch ads. 
 
 Please make resonable effort to make Userscript rules compatible with Greasemonkey. 
 
