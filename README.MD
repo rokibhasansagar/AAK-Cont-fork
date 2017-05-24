@@ -63,8 +63,6 @@ Some critical files are protected (locked) and you must ask me to change them (p
 
 ## Features
 * Detect & Kill Anti-Adblockers
-* Check if installation is complete
-* Check & Notify updates
 * More filters for Adblockers
 * [Settings](https://xuhaiyang1234.gitlab.io/AAK-Cont/)
 * [Suggest features](https://gitlab.com/xuhaiyang1234/AAK-Cont/issues)
