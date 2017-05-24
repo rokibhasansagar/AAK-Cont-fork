@@ -1,0 +1,13 @@
+[Adblock Plus 2.0]
+! Title: AAK-Cont uBlock Origin Extension Filter
+! Author: Reek | http://reeksite.com/
+! Version: 1.0
+! Expires: 1 days
+! License: https://creativecommons.org/licenses/by-sa/4.0/
+! Homepage: https://xuhaiyang1234.gitlab.io/AAK-Cont/
+! Support: https://gitlab.com/xuhaiyang1234/AAK-Cont/issues
+! WritingRules: https://adblockplus.org/filters
+! RedundantRules: https://arestwo.org/famlam/redundantRuleChecker.html
+! RegExpVisualizer http://www.regexper.com/
+!
+! No rules for now
