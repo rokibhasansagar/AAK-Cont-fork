@@ -20,7 +20,7 @@ Can you help with any of these? Bring in those Merge Requests!
 
 ## Instruction
 
-#### Are you using Chrome, uBlock Origin, and Violentmonkey? Check out [AdBlock Protector](https://github.com/jspenguin2017/AdBlockProtector)! 
+#### Are you using Chrome, uBlock Origin, and Violentmonkey? Check out [AdBlock Protector](https://jspenguin2017.github.io/AdBlockProtector/)! 
 
 #### Step 1: Install Script Host
 * ![Chrome](images/browsers/chrome.png) [Tampermonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo)
