@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: AAK-Cont Core Filter
-! Author: Reek | http://reeksite.com/
+! Author: Originally by Reek, revived by jspenguin2017
 ! Version: 1.001
 ! Expires: 1 days
 ! License: https://creativecommons.org/licenses/by-sa/4.0/
