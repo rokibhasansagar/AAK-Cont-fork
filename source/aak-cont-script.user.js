@@ -2,7 +2,7 @@
 // @name AAK-Cont Userscript
 // @namespace https://userscripts.org/scripts/show/155840
 // @description Helps you keep your Ad-Blocker active, when you visit a website and it asks you to disable.
-// @author Reek
+// @author Originally by Reek, revived by jspenguin2017
 // @version 1.001
 // @encoding utf-8
 // @license https://creativecommons.org/licenses/by-sa/4.0/
