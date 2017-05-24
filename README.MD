@@ -16,9 +16,11 @@ TODO:
 2. Patch Userscript vulnerabilities and break it into two parts so community rules can be inserted in between
 3. Make compilers so community rules can be nicely and safely compiled
 
+Can you help with any of these? Bring in those Merge Requests! 
+
 ## Instruction
 
-#### Are you using Chrome, uBlock Origin, and Violentmonkey? Check out [AdBlock Protector](https://github.com/jspenguin2017/AdBlockProtector)! 
+#### Are you using Chrome, uBlock Origin, and Violentmonkey? Check out [AdBlock Protector](https://jspenguin2017.github.io/AdBlockProtector/)! 
 
 #### Step 1: Install Script Host
 * ![Chrome](images/browsers/chrome.png) [Tampermonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo)
@@ -31,8 +33,8 @@ TODO:
 
 #### Step 2: Add Filter List
 * [Subscribe to Core filter - Broken]()
-* [Subscribe to Adguard extension - Broken]()
-* [Subscribe to uBlock Origin FireFox extension - Broken]()
+* [Subscribe to Adguard extension filter - Broken]()
+* [Subscribe to uBlock Origin FireFox extension filter - Broken]()
 
 > ##### Note: Please first check your Adblocker settings page to see if the filter is listed. 
 > ##### Note: Extension filters runs alongside core. 
