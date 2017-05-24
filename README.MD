@@ -61,7 +61,7 @@ Code submitted to Merge Request will go over minimal review before being merged,
 One drawback is that the merge can break the code. You may be blocked from submitting new Merge Request if your code is constantly causing problems. 
 
 Are you a reputable developer who code a lot and want to directly write to the repository? Let me know and I will give you write access. 
-Some critical files are protected (locked) and you must ask me to change them (open an issue). 
+Some critical files are protected (locked) and you must ask me to change them (please open an issue in this case). 
 
 ## Features
 * Detect & Kill Anti-Adblockers
