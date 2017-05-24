@@ -1498,7 +1498,7 @@ return;
         host : ['xuhaiyang1234.gitlab.io'],
         onEnd : function () {
             
-          if (location.pathname.endsWith("settings.html") {
+          if (/^\/AAK-Cont\//.test(location.pathname)) {
             var settingsBox = Aak.getElement('#aak-settings-box');
             var settingsNotice = Aak.getElement('#aak-settings-notice');
 
