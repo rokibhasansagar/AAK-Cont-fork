@@ -71,16 +71,16 @@
   "use strict";
   
   var Aak = {
-    name : 'Anti-Adblock Killer',
-    version : '10.0',
+    name : 'Anti-Adblock Killer Continued',
+    version : '1.001',
     scriptid : 'gJWEp0vB',
     homeURL : 'https://xuhaiyang1234.gitlab.io/AAK-Cont/',
     changelogURL : 'https://xuhaiyang1234.gitlab.io/AAK-Cont/',
     donateURL : 'https://xuhaiyang1234.gitlab.io/AAK-Cont/',
     featuresURL : 'https://xuhaiyang1234.gitlab.io/AAK-Cont/',
-    reportURL : '!!!!!!!!!TODO!!!!!!!',
+    reportURL : 'https://gitlab.com/xuhaiyang1234/AAK-Cont/issues',
     contactURL : 'https://xuhaiyang1234.gitlab.io/AAK-Cont/',
-    settingsURL : 'https://xuhaiyang1234.gitlab.io/AAK-Cont/settings.html',
+    settingsURL : 'https://xuhaiyang1234.gitlab.io/AAK-Cont/index.html#settings',
     twitterURL : 'https://twitter.com/',
     downloadURL : 'https://gitlab.com/xuhaiyang1234/AAK-Cont/raw/master/source/anti-adblock-killer.user.js',
     subscribeURL : 'https://xuhaiyang1234.gitlab.io/AAK-Cont/',
@@ -208,12 +208,12 @@
         execute : function () {
           Aak.go(Aak.settingsURL);
         }
-      }, {
+      } /* ,{
         caption : 'Update',
         execute : function () {
           Aak.checkUpdate();
         }
-      }
+      }*/
     ],
     addCommands : function (cmd) {
       if (Aak.useGM && Aak.isTopframe && typeof GM_registerMenuCommand != 'undefined') {
@@ -408,7 +408,10 @@
 
       }
     },
-    checkList : function () {return;
+    checkList : function () {
+        
+        return;
+        
       if (Aak.useGM && Aak.opts.checkList && Aak.isTopframe) {
         Aak.schedule(1, 'nextchecklist', function () {
           Aak.ready(function () {
@@ -433,7 +436,9 @@
       }
     },
     checkUpdate : function (auto) {
-return;
+        
+    return;
+
       var check = function (notifyFalse) {
         Aak.request({
           url : Aak.downloadURL,
@@ -1514,7 +1519,7 @@ return;
               // user config
               Aak.createElement({
                 tag : 'div',
-                html : 'Version: ' + Aak.getVersion() + ' <br>AakScript: true <br>AakList: ' + (!Aak.getElement('#k2Uw7isHrMm5JXP1Vwdxc567ZKc1aZ4I')) + ' <br>Browser: ' + Aak.getBrowser() + ' <br>ScriptManager: ' + Aak.getScriptManager(),
+                html : 'Version: ' + Aak.getVersion() + ' <br>AAK-Cont Script: Enabled <br>Browser: ' + Aak.getBrowser() + ' <br>ScriptManager: ' + Aak.getScriptManager(),
                 append : '#aak-settings-config'
               });
 
