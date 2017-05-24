@@ -34,7 +34,8 @@ Can you help with any of these? Bring in those Merge Requests!
 #### Step 2: Add Filter List
 * [Subscribe to Core filter - Broken]()
 * [Subscribe to Adguard extension filter - Broken]()
-* [Subscribe to uBlock Origin FireFox extension filter - Broken]()
+* [Subscribe to uBlock Origin extension filter - Broken]()
+* [Subscribe to AdBlock / Adblock Plus extension filter - Broken]()
 
 > ##### Note: Please first check your Adblocker settings page to see if the filter is listed. 
 > ##### Note: Extension filters runs alongside core. 
