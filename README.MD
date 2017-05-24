@@ -16,6 +16,8 @@ TODO:
 2. Patch Userscript vulnerabilities and break it into two parts so community rules can be inserted in between
 3. Make compilers so community rules can be nicely and safely compiled
 
+Can you help with any of these? Bring in those Merge Requests! 
+
 ## Instruction
 
 #### Are you using Chrome, uBlock Origin, and Violentmonkey? Check out [AdBlock Protector](https://github.com/jspenguin2017/AdBlockProtector)! 
