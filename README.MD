@@ -112,7 +112,7 @@ Some critical files are protected (locked) and you must ask me to change them (p
 * uBlock Origin &#10004;
 * Adguard &#10004;
 
-## Supported Sites
+## Anti-Adblock scripts that we kill
 ##### Plugins (Website)
 * Antiblock.org V2 & V3
 * AntiAdblock (ClemensConrads)
@@ -150,3 +150,6 @@ Some critical files are protected (locked) and you must ask me to change them (p
 * NoAdblock Nice Message
 * Ad Block Defender
 * Ad Blocking Advisor
+
+##### And more! 
+
