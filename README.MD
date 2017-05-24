@@ -21,16 +21,16 @@
 
 > ##### Note: After installation (which requires restarting your browser), you are now ready to install userscripts. 
 
-#### Step 2: Add Filter List
+#### Step 2: Install Userscript
+* [Install](https://gitlab.com/xuhaiyang1234/AAK-Cont/raw/master/source/anti-adblock-killer.user.js)
+
+> ##### Note: [Test: BlockAdBlock](https://blockadblock.com/) [Test: Antiblock](http://antiblock.org/?p=v3&demo)
+
+#### Step 3: Add Filter List
 * [Subscribe from GitLab](https://xuhaiyang1234.gitlab.io/AAK-Cont/index.html#filterlist)
 
 > ##### Note: Please first check your Adblocker settings page to see if the filter is listed. 
 > ##### Note: Extension filters runs alongside core. 
-
-#### Step 3: Install Userscript
-* [Install](https://gitlab.com/xuhaiyang1234/AAK-Cont/raw/master/source/anti-adblock-killer.user.js)
-
-> ##### Note: [Test: BlockAdBlock](https://blockadblock.com/) [Test: Antiblock](http://antiblock.org/?p=v3&demo)
 
 ## We need your help! 
 
