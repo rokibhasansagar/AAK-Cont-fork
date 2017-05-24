@@ -6,11 +6,16 @@
 
 ### Beta test! Let us know what works / doesn't work
 
-### We are looking for contributors, head over to Issues page and let me know. 
+### We are looking for contributors! Head over to Issues page and let me know. 
 
-## Instruction
+## Installation Instruction
 
 #### Are you using Chrome, uBlock Origin, and Violentmonkey? Check out [AdBlock Protector](https://jspenguin2017.github.io/AdBlockProtector/)! 
+
+AdBlock Protector is a significantly optimized and polished version of AAK-Cont, however, in the process of optimizing the code, it only runs on one specific setup. 
+If you are not using that setup, please **DO NOT** try it. It will NOT work and you will NOT find support that you need. 
+
+The performance difference is noticable, but that half a second now and then shouldn't matter that much on a mordern device. 
 
 #### Step 1: Install Script Host
 * ![Chrome](images/browsers/chrome.png) [Tampermonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo) or [Violentmonkey](https://chrome.google.com/webstore/detail/violentmonkey/jinjaccalgkegednnccohejagnlnfdag)
@@ -36,50 +41,53 @@
 
 This is a Merge Request driven community effort to bring back our beloved Anti-Adblock Killer. 
 
-Every new solution are required to be "stand alone", so every part of this project can work alone. 
+Every new solution are required to be "stand alone" (only change one file), so every part of this project can work alone. 
 I know that the solutions won't be complete this way, but it is better than causing more breakage due to partial installation. 
+One of the goal of this project is fit the need of everyone, we need to try to accommodate people who do not want to use the Userscript for example. 
 
 White listing is not ideal, but in the case of AdBlock and Adblock Plus, there may not be an alternative. 
 Please put those filters in the AdBlock / Adblock Plus extension filter so other users won't need to watch ads. 
 
-Please make resonable effort to make Userscript rules compatible with Greasemonkey. 
+Please make resonable effort to make Userscript rules compatible with Greasemonkey. This is not as big a priority since FireFox is dropping support 
+for legacy plugins like Greasemonkey. 
 
-Version number **MUST** be a valid float point with 3 digits after the decimal place. This restriction is due to a limitation in the Userscript. 
+Version number **must** be a valid float point number with 3 digits after the decimal place. This restriction is due to a limitation in the Userscript. 
 
 Code submitted to Merge Request will go over minimal review before being merged, your requestes will be processed fast. 
-One drawback is that the merge can break the code. You may be blocked from submitting new Merge Request if your code is constantly causing problems. 
+One obvious drawback is that the merge can break the code. You may be blocked from submitting new Merge Request if your code is constantly causing problems. 
+
+**If you attempt to submit malicious code, you will be immediately and permanently banned.**
 
 Are you a reputable developer who code a lot and want to directly write to the repository? Let me know and I will give you write access. 
 Some critical files are protected (locked) and you must ask me to change them (please open an issue in this case). 
 
 ## Features
 * Detect & Kill Anti-Adblockers
-* Check if Anti-Adblock Killer list is installed
+* Check if installation is complete
 * Check & Notify updates
 * More filters for Adblockers
 * [Settings](https://xuhaiyang1234.gitlab.io/AAK-Cont/)
 * [Suggest features](https://gitlab.com/xuhaiyang1234/AAK-Cont/issues)
 
 ## Help
-* Check if you have only one Adblocker enabled. (Adblock, Adblock Plus or uBlock Origin)
-* Check if the script manager is enabled (Greasemonkey, Tampermonkey, NinjaKit, etc...).
+* Check if you have only one Adblocker enabled. (AdBlock, Adblock Plus, uBlock Origin, Adguard, etc...).
+* Check if the script manager is enabled (Tampermonkey, Violentmonkey, Greasemonkey, etc...).
 * Check if you have installed the latest version of AAK-Cont Script (Step 2).
 * Check if you have subscribed to AAK-Cont filter lists (Step 3).
 * Check if AAK-Cont Script is enabled.
 * Check if AAK-Cont filter lists are enabled.
 * Try update or re-install AAK-Cont Script.
 * Try update or re-subscribe AAK-Cont filter lists.
-* Check if you have another userscript that might interfere with AAK-Cont (e.g. AdBlock Protector).
-* Check if one of these extensions is problematic (Disable Anti-Adblock, Ghostery, Online Security Avast, Donotrackme, Privacy Badger, Disconnect, Blur, 
-TrackerBlock, Kaspersky Anti-Banner, Freebox (Anti-pub), No Script, YesScript, HTTPS Everywhere).
+* Check if you have another userscript that might interfere with AAK-Cont (e.g. AdBlock Protector, the original (discontinued) AAK).
+* One of these extensions is problematic (Disable Anti-Adblock, Ghostery, Online Security Avast, Donotrackme, Privacy Badger, Disconnect, Blur, 
+TrackerBlock, Kaspersky Anti-Banner, Freebox (Anti-pub), No Script, YesScript, HTTPS Everywhere). Check if you have it installed.
 * Check if, your JavaScript is enabled [Test](http://activatejavascript.org/).
 * Remove duplicates AAK-Cont Script / filter lists.
 * Remove or disable personal filters.
 * Enable only the filter lists you need, too many can make your browser unresponsive.
-* Force an update in Adblocker lists.
-* Force an update in Script Host.
-* Try with another Browser.
-* Try with another Script Host.
+* Force an update in Adblocker settings.
+* Force an update in Script Host settings.
+* Try with another Browser or Script Host. Don't want to switch? [Open an issue](https://gitlab.com/xuhaiyang1234/AAK-Cont/issues) and let us know.
 * How to disable the update check [Settings](https://xuhaiyang1234.gitlab.io/AAK-Cont/)
 * How to disable the list check [Settings](https://xuhaiyang1234.gitlab.io/AAK-Cont/)
 * How write Adblock filters [here](https://adblockplus.org/en/filters)
