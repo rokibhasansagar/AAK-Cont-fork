@@ -146,3 +146,8 @@ TrackerBlock, Kaspersky Anti-Banner, Freebox (Anti-pub), No Script, YesScript, H
 
 ##### And more! 
 
+## Like this project?
+* Let your friends know
+* Report issues
+* Help us resolve issues
+* Leave a star
