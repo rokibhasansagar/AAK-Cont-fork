@@ -236,7 +236,7 @@
 	var z = window.setTimeout,
 		needle = '{{1}}',
 		delay = parseInt('{{2}}', 10);
-	if ( needle === '' || needle === '{{1}}' ) {
+	if ( needle === ''){  // || needle === '{{1}}' ) {
 		needle = '.?';
 	} else if ( needle.slice(0,1) === '/' && needle.slice(-1) === '/' ) {
 		needle = needle.slice(1,-1);
@@ -398,7 +398,7 @@ Aak.addScript(str);
     },
     notification : function (message, delay) {
         
-        return; 
+        return; /*
         
       if (Aak.isTopframe) {
 
@@ -433,12 +433,12 @@ Aak.addScript(str);
           }
         });
 
-      }
+      }*/
     },
     checkList : function () {
         
         return;
-        
+        /*
       if (Aak.useGM && Aak.opts.checkList && Aak.isTopframe) {
         Aak.schedule(1, 'nextchecklist', function () {
           Aak.ready(function () {
@@ -460,12 +460,12 @@ Aak.addScript(str);
             });
           });
         });
-      }
+      }*/
     },
     checkUpdate : function (auto) {
         
     return;
-
+/*
       var check = function (notifyFalse) {
         Aak.request({
           url : Aak.downloadURL,
@@ -497,7 +497,7 @@ Aak.addScript(str);
         if (Aak.isTopframe) {
           check(true);
         }
-      }
+      }*/
 
     },
     openInTab : function (url) {
@@ -2080,7 +2080,7 @@ Aak.addScript(str);
           });
         }
       },
-          thewindowsclub_con:{
+          thewindowsclub_com:{
           host: ['thewindowsclub.com'],
               onStart: function(){
               Aak.TM_setTimeout_defuser("[native code]");
