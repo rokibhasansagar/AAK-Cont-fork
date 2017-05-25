@@ -3,7 +3,7 @@
 // @namespace https://userscripts.org/scripts/show/155840
 // @description Helps you keep your Ad-Blocker active, when you visit a website and it asks you to disable.
 // @author Originally by Reek, revived by jspenguin2017
-// @version 1.001
+// @version 1.002
 // @encoding utf-8
 // @license https://creativecommons.org/licenses/by-sa/4.0/
 // @icon https://gitlab.com/xuhaiyang1234/AAK-Cont/raw/master/images/icon.png
@@ -72,7 +72,7 @@
   
   var Aak = {
     name : 'Anti-Adblock Killer Continued',
-    version : '1.001',
+    version : '1.002',
     scriptid : 'gJWEp0vB',
     homeURL : 'https://xuhaiyang1234.gitlab.io/AAK-Cont/',
     changelogURL : 'https://xuhaiyang1234.gitlab.io/AAK-Cont/',
