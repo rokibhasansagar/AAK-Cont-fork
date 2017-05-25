@@ -103,7 +103,7 @@ TrackerBlock, Kaspersky Anti-Banner, Freebox (Anti-pub), No Script, YesScript, H
 * Adblock &#10004;
 * Adblock Plus &#10004;
 * uBlock Origin &#10004;
-* Adguard &#2754;
+* Adguard ❔
 
 ## Anti-Adblock scripts that we kill
 ##### Plugins (Website)
