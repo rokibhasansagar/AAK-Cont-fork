@@ -15,7 +15,7 @@
 AdBlock Protector is a significantly optimized and polished version of AAK-Cont, however, in the process of optimizing the code, it only runs on one specific setup. 
 If you are not using that setup and you are unwilling to switch, please **DO NOT** try it. It will NOT work and you will NOT find the support that you need. 
 
-The performance difference is noticable, but that half a second now and then shouldn't matter that much on a mordern device. 
+The performance difference might be noticable, but if you have a mordern device, it shouldn't really matter for you. 
 
 #### Step 1: Install Script Host
 * ![Chrome](images/browsers/chrome.png) [Tampermonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo) or [Violentmonkey](https://chrome.google.com/webstore/detail/violentmonkey/jinjaccalgkegednnccohejagnlnfdag)
