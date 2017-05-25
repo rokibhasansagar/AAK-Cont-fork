@@ -48,10 +48,11 @@ One of the goal of this project is fit the need of everyone, we need to try to a
 White listing is not ideal, but in the case of AdBlock and Adblock Plus, there may not be an alternative. 
 Please put those filters in the AdBlock / Adblock Plus extension filter so other users won't need to watch ads. 
 
-Please make resonable effort to make Userscript rules compatible with Greasemonkey. This is not as big a priority since FireFox is dropping support 
+Please make resonable effort to make Userscript rules compatible with Greasemonkey. This is not as big of a priority since FireFox is dropping support 
 for legacy plugins like Greasemonkey. 
 
 Version number **must** be a valid float point number with 3 digits after the decimal place. This restriction is due to a limitation in the Userscript. 
+Also the Userscript has version number in two different places, please update both. 
 
 Code submitted to Merge Request will go over minimal review before being merged, your requestes will be processed fast. 
 One obvious drawback is that the merge can break the code. You may be blocked from submitting new Merge Request if your code is constantly causing problems. 
