@@ -4917,6 +4917,9 @@
           Aak.addScript(function () {
               if(/blockadblock\.com$/.test(location.hostname)){
                 window.eval = null;
+                  window.addEventListener("load", function(){
+                  window.document.getElementById("babasbmsgx").remove();
+                  });
             }
               //return;
             // variant 1
