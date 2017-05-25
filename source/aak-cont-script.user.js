@@ -4911,7 +4911,14 @@
         // issue: https://greasyfork.org/forum/discussion/7625
         host : ['blockadblock.com', 'linkdrop.net', 'revclouds.com', 'leporno.org', 'uploadshub.com', 'dasolo.org', 'fullstuff.net', 'zeusnews.it', 'cheminots.net', 'lolsy.tv', 'animes-mangas-ddl.com', 'noticiasautomotivas.com.br', 'darkstars.org', 'corepacks.com', 'naturalbd.com', 'coolsoft.altervista.org', 'openload.us', 'cda-online.pl', 'urbanplanet.org', 'mamahd.com', 'sadeempc.com', 'avmoo.com', 'thailande-fr.com', 'btaia.com', 'tusoft.org', 'hisse.net', 'europeup.com', 'nrj.fr', 'srnk.co', 'animmex.co', 'socketloop.com', 'crackhex.com', 'revealedtricks4u.com', 'pizzamaking.com', 'computerworm.net', 'yourlifeupdated.net'],
         onStart : function () {
+            if(/blockadblock\.com$/.test(location.hostname)){
+                try {  unsafeWindow.eval = null; } catch(e){}
+            }
           Aak.addScript(function () {
+              if(/blockadblock\.com$/.test(location.hostname)){
+                window.eval = null;
+            }
+              //return;
             // variant 1
             (function () {
               var _setTimeout = window.setTimeout;
