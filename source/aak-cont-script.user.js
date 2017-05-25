@@ -3,7 +3,7 @@
 // @namespace https://userscripts.org/scripts/show/155840
 // @description Helps you keep your Ad-Blocker active, when you visit a website and it asks you to disable.
 // @author Originally by Reek, revived by jspenguin2017
-// @version 1.002
+// @version 1.003
 // @encoding utf-8
 // @license https://creativecommons.org/licenses/by-sa/4.0/
 // @icon https://gitlab.com/xuhaiyang1234/AAK-Cont/raw/master/images/icon.png
@@ -72,7 +72,7 @@
   
   var Aak = {
     name : 'Anti-Adblock Killer Continued',
-    version : '1.002',
+    version : '1.003',
     scriptid : 'gJWEp0vB',
     homeURL : 'https://xuhaiyang1234.gitlab.io/AAK-Cont/',
     changelogURL : 'https://xuhaiyang1234.gitlab.io/AAK-Cont/',
@@ -230,6 +230,33 @@
         });
       });
     },
+      TM_setTimeout_defuser : function(niddle, delay) {
+      //https://github.com/uBlockOrigin/uAssets/blob/master/filters/resources.txt
+      var uBO_Solution = function(){
+	var z = window.setTimeout,
+		needle = '{{1}}',
+		delay = parseInt('{{2}}', 10);
+	if ( needle === '' || needle === '{{1}}' ) {
+		needle = '.?';
+	} else if ( needle.slice(0,1) === '/' && needle.slice(-1) === '/' ) {
+		needle = needle.slice(1,-1);
+	} else {
+		needle = needle.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+	}
+	needle = new RegExp(needle);
+	window.setTimeout = function(a, b) {
+		if ( (isNaN(delay) || b == delay) && needle.test(a.toString()) ) {
+			return 0;
+		}
+		return z(a, b);
+	}.bind(window);
+};
+ 
+ var str = "(" + uBO_Solution.toString().replace(/\{\{1\}\}/, String(niddle)).replace(/\{\{2\}\}/, String(delay)) + ")();";
+//console.log(str);
+Aak.addScript(str);
+ 
+ },
     registerConsole : function () {
       this.log = Aak.opts.debug ? console.log.bind(console) : function () {};
       this.info = Aak.opts.debug ? console.info.bind(console) : function () {};
@@ -2053,6 +2080,13 @@
           });
         }
       },
+          thewindowsclub_con:{
+          host: ['thewindowsclub.com'],
+              onStart: function(){
+              Aak.TM_setTimeout_defuser("[native code]");
+              }
+          
+          },
       stream4free_eu : {
         host : ['stream4free.eu'],
         onStart : function () {
