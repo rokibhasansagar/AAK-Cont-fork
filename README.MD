@@ -10,12 +10,12 @@
 
 ## Installation Instruction
 
-#### Are you using Chrome, uBlock Origin, and Violentmonkey? Check out [AdBlock Protector](https://jspenguin2017.github.io/AdBlockProtector/)! 
+#### Are you using Chrome, uBlock Origin, and Violentmonkey? Check out [uBlock Protector](https://jspenguin2017.github.io/uBlockProtector/)! 
 
-AdBlock Protector is a significantly optimized and polished version of AAK-Cont, however, in the process of optimizing the code, it only runs on one specific setup. 
+uBlock Protector is an optimized and polished version of AAK-Cont, however, in the process of optimizing the code, it ends up only working on one specific setup. 
 If you are not using that setup and you are unwilling to switch, please **DO NOT** try it. It will NOT work and you will NOT find the support that you need. 
 
-The performance difference might be noticable, but if you have a mordern device, it shouldn't really matter for you. 
+The performance difference might be noticable on some really old devices, as technology progresses, this is less and less of an issue. 
 
 #### Step 1: Install Script Host
 * ![Chrome](images/browsers/chrome.png) [Tampermonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo) or [Violentmonkey](https://chrome.google.com/webstore/detail/violentmonkey/jinjaccalgkegednnccohejagnlnfdag)
