@@ -3,7 +3,7 @@
 // @namespace https://userscripts.org/scripts/show/155840
 // @description Helps you keep your Ad-Blocker active, when you visit a website and it asks you to disable.
 // @author Originally by Reek, revived by jspenguin2017
-// @version 1.003
+// @version 1.004
 // @encoding utf-8
 // @license https://creativecommons.org/licenses/by-sa/4.0/
 // @icon https://gitlab.com/xuhaiyang1234/AAK-Cont/raw/master/images/icon.png
@@ -72,7 +72,7 @@
   
   var Aak = {
     name : 'Anti-Adblock Killer Continued',
-    version : '1.003',
+    version : '1.004',
     scriptid : 'gJWEp0vB',
     homeURL : 'https://xuhaiyang1234.gitlab.io/AAK-Cont/',
     changelogURL : 'https://xuhaiyang1234.gitlab.io/AAK-Cont/',
@@ -677,6 +677,42 @@ Aak.addScript(str);
         }
       };
     },
+      abort_on_property_write: function(name){
+   var uboSol =    function() {
+	var magic = String.fromCharCode(Date.now() % 26 + 97) +
+				Math.floor(Math.random() * 982451653 + 982451653).toString(36);
+	var prop = '{{1}}',
+		owner = window,
+		pos;
+	for (;;) {
+		pos = prop.indexOf('.');
+		if ( pos === -1 ) { break; }
+		owner = owner[prop.slice(0, pos)];
+		if ( owner instanceof Object === false ) { return; }
+		prop = prop.slice(pos + 1);
+	}
+	delete owner[prop];
+	Object.defineProperty(owner, prop, {
+		set: function() {
+			throw new ReferenceError(magic);
+		}
+	});
+	var oe = window.onerror;
+	window.onerror = function(msg, src, line, col, error) {
+		if ( typeof msg === 'string' && msg.indexOf(magic) !== -1 ) {
+			return true;
+		}
+		if ( oe instanceof Function ) {
+			return oe(msg, src, line, col, error);
+		}
+	}.bind();
+}
+      
+   var text = "(" + uboSol.toString().replace("{{1}}", String(name)) + ")()";
+          
+          Aak.addScript(text);
+      
+      },
     unpackScript : function (source) {
       // deobfuscate: pac+ked, pac+ker, mun+ged, wi+se
       // note: "Exception 403008" see greasefork PM
@@ -4132,6 +4168,9 @@ Aak.addScript(str);
           });
         }
       },
+        kbb_com:{
+        host:["kbb.com"],onStart: function(){Aak.abort_on_property_write("KBB.DetectBlockerExtensions");}
+        },
       ipla_tv : {
         // by: Marek
         // solution: http://tinyurl.com/ptb4ybg
