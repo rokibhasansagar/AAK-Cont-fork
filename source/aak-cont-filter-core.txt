@@ -10,6 +10,10 @@
 ! RedundantRules: https://arestwo.org/famlam/redundantRuleChecker.html
 ! RegExpVisualizer http://www.regexper.com/
 !
+! xuhaiyang1234/AAK-Cont#8
+||cdn.theatlantic.com/assets/*/vendors.min*.js$script
+!
+!
 ! ===== Anti-Adblockers ===== !
 !
 ! ----- Generic ----- !
