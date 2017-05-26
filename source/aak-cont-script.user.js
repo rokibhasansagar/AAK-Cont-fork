@@ -9,8 +9,8 @@
 // @icon https://gitlab.com/xuhaiyang1234/AAK-Cont/raw/master/images/icon.png
 // @homepage https://xuhaiyang1234.gitlab.io/AAK-Cont/
 // @supportURL https://gitlab.com/xuhaiyang1234/AAK-Cont/issues
-// @updateURL https://gitlab.com/xuhaiyang1234/AAK-Cont/raw/master/source/anti-adblock-killer.user.js
-// @downloadURL https://gitlab.com/xuhaiyang1234/AAK-Cont/raw/master/source/anti-adblock-killer.user.js
+// @updateURL https://gitlab.com/xuhaiyang1234/AAK-Cont/raw/master/source/aak-cont-script.user.js
+// @downloadURL https://gitlab.com/xuhaiyang1234/AAK-Cont/raw/master/source/aak-cont-script.user.js
 // @include http://*/*
 // @include https://*/*
 // @grant unsafeWindow
@@ -82,7 +82,7 @@
     contactURL : 'https://xuhaiyang1234.gitlab.io/AAK-Cont/',
     settingsURL : 'https://xuhaiyang1234.gitlab.io/AAK-Cont/index.html#settings',
     twitterURL : 'https://twitter.com/',
-    downloadURL : 'https://gitlab.com/xuhaiyang1234/AAK-Cont/raw/master/source/anti-adblock-killer.user.js',
+    downloadURL : 'https://gitlab.com/xuhaiyang1234/AAK-Cont/raw/master/source/aak-cont-script.user.js',
     subscribeURL : 'https://xuhaiyang1234.gitlab.io/AAK-Cont/',
     listURL : "https://gitlab.com/xuhaiyang1234/AAK-Cont/raw/master/source/aak-cont-filter-core.txt",
     nativeURL : 'https://xuhaiyang1234.gitlab.io/AAK-Cont/',
