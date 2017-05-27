@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Title: AAK-Cont AdBlock / Adblock Plus Extension Filter
+! Title: AAK-Cont AdBlock / Adblock Plus Auto-disable Extension Filter
 ! Author: Originally by Reek, revived by jspenguin2017
 ! Version: 1.001
 ! Expires: 1 days
@@ -11,3 +11,4 @@
 ! RegExpVisualizer http://www.regexper.com/
 !
 ||blockadblock.com^$document
+@@||sjp.pwn.pl/ads.js

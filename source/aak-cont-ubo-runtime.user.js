@@ -3,7 +3,7 @@
 // @namespace https://userscripts.org/scripts/show/155840
 // @description Helps AdBlock / Adblock Plus to handle uBlock Origin filters
 // @author jspenguin2017, based on work of gorhill
-// @version 1.001
+// @version 1.002
 // @encoding utf-8
 // @license https://github.com/uBlockOrigin/uAssets/blob/master/LICENSE
 // @icon https://gitlab.com/xuhaiyang1234/AAK-Cont/raw/master/images/icon.png
@@ -198,6 +198,9 @@
     }
     if (util.domCmp("gamesradar.com")) {
         ubo.abort-on-property-write("_sp_");
+    }
+    if (util.domCmp("pwn.pl")) {
+        ubo.abort_on_property_read("adblock");
     }
 
 })();

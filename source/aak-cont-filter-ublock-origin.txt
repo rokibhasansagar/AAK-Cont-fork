@@ -12,4 +12,4 @@
 # RedundantRules: https://arestwo.org/famlam/redundantRuleChecker.html
 # RegExpVisualizer http://www.regexper.com/
 #
-# No rules for now
+pwn.pl##script:inject(abort-on-property-read.js, adblock)
