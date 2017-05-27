@@ -3,7 +3,7 @@
 // @namespace https://userscripts.org/scripts/show/155840
 // @description Helps AdBlock / Adblock Plus to handle uBlock Origin filters
 // @author jspenguin2017, based on work of gorhill
-// @version 1.002
+// @version 1.003
 // @encoding utf-8
 // @license https://github.com/uBlockOrigin/uAssets/blob/master/LICENSE
 // @icon https://gitlab.com/xuhaiyang1234/AAK-Cont/raw/master/images/icon.png
@@ -13,7 +13,7 @@
 // @downloadURL https://gitlab.com/xuhaiyang1234/AAK-Cont/raw/master/source/aak-cont-ubo-runtime.user.js
 // @include http://*/*
 // @include https://*/*
-// @grant none
+// @grant unsafeWindow
 // @run-at document-start
 // @connect *
 // ==/UserScript==
@@ -23,7 +23,7 @@
         dropScript: function (txt, scriptDropMode) {
             //scriptDropMode: undefined = autodetect, 1 for force eval, 2 for force drop element
             var forceEval = function (txt) {
-                unsafeWindow.eval(txt);
+                unsafeWindow.eval("(" + txt + ")();");
             };
             var forceDrop = function (txt) {
                 var script = document.createElement('script');
@@ -99,7 +99,7 @@
                 }.bind(window);
             };
             var str = String(uSol).replace("{{1}}", String(niddle || "")).replace("{{2}}", String(delay));
-            util.dropScript(str, scriotDropMode);
+            util.dropScript(str, scriptDropMode);
         },
         abort_on_property_read: function (niddle, scriptDropMode) {
             var uSol = function () {
@@ -153,7 +153,7 @@
                 }.bind();
             };
             var str = String(uSol).replace("{{1}}", String(niddle));
-            util.dropScript(str, scriotDropMode);
+            util.dropScript(str, scriptDropMode);
         },
         abort_on_property_write: function (niddle, scriptDropMode) {
             var uSol = function () {
@@ -186,7 +186,7 @@
                 }.bind();
             };
             var str = String(uSol).replace("{{1}}", String(niddle));
-            util.dropScript(str, scriotDropMode);
+            util.dropScript(str, scriptDropMode);
         }
     };
     //Rules
@@ -202,5 +202,8 @@
     if (util.domCmp("pwn.pl")) {
         ubo.abort_on_property_read("adblock");
     }
-
+    if (util.domCmp("androidcentral.com")) {
+        ubo.abort_on_property_write("adonisHash");
+        ubo.setTimeout_defuser("ubo", 300);
+    }
 })();
