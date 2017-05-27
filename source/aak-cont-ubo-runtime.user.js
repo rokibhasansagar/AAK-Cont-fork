@@ -197,7 +197,7 @@
         ubo.abort_on_property_write("KBB.DetectBlockerExtensions");
     }
     if (util.domCmp("gamesradar.com")) {
-        ubo.abort-on-property-write("_sp_");
+        ubo.abort_on_property_write("_sp_");
     }
     if (util.domCmp("pwn.pl")) {
         ubo.abort_on_property_read("adblock");
