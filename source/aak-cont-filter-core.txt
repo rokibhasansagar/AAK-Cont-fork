@@ -12,6 +12,8 @@
 !
 ! xuhaiyang1234/AAK-Cont#8
 ||cdn.theatlantic.com/assets/*/vendors.min*.js$script
+! xuhaiyang1234/AAK-Cont#13
+@@||urlex.org^$generichide
 !
 !
 ! ===== Anti-Adblockers ===== !
