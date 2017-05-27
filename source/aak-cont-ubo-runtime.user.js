@@ -196,5 +196,8 @@
     if (util.domCmp("kbb.com")) {
         ubo.abort_on_property_write("KBB.DetectBlockerExtensions");
     }
+    if (util.domCmp("gamesradar.com")) {
+        ubo.abort-on-property-write("_sp_");
+    }
 
 })();
