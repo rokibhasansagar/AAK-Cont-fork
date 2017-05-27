@@ -27,7 +27,7 @@ The performance difference might be noticable on some really old devices, as tec
 > ##### Note: After installation (which may require restarting your browser), you are now ready to install userscripts. 
 
 #### Step 2: Install Userscript
-* [Click here to install](https://gitlab.com/xuhaiyang1234/AAK-Cont/raw/master/source/aak-cont-script.user.js)
+* [Click here](https://gitlab.com/xuhaiyang1234/AAK-Cont/raw/master/source/aak-cont-script.user.js) to install core script
 * If you are *NOT* using uBlock Origin, [click here](https://gitlab.com/xuhaiyang1234/AAK-Cont/raw/master/source/aak-cont-ubo-runtime.user.js) 
 to install uBlock Origin Runtime for AdBlock / Adblock Plus
 
