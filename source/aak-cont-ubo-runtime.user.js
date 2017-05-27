@@ -19,6 +19,7 @@
 // ==/UserScript==
 
 (function () {
+    //=====START UTIL=====
     var util = {
         dropScript: function (txt, scriptDropMode) {
             //scriptDropMode: undefined = autodetect, 1 for force eval, 2 for force drop element
@@ -49,24 +50,24 @@
             }
         },
         getScriptManager: function () {
-            if (typeof GM_info == 'object') {
+            if (typeof GM_info === 'object') {
                 // Greasemonkey (Firefox)
-                if (typeof GM_info.uuid != 'undefined') {
+                if (typeof GM_info.uuid !== 'undefined') {
                     return 'Greasemonkey';
                 } // Tampermonkey (Chrome/Opera)
-                else if (typeof GM_info.scriptHandler != 'undefined') {
+                else if (typeof GM_info.scriptHandler !== 'undefined') {
                     return 'Tampermonkey';
                 }
             } else {
                 // Scriptish (Firefox)
-                if (typeof GM_getMetadata == 'function') {
+                if (typeof GM_getMetadata === 'function') {
                     return 'Scriptish';
                 } // NinjaKit (Safari/Chrome)
-                else if (typeof GM_setValue != 'undefined' &&
-                    typeof GM_getResourceText == 'undefined' &&
-                    typeof GM_getResourceURL == 'undefined' &&
-                    typeof GM_openInTab == 'undefined' &&
-                    typeof GM_setClipboard == 'undefined') {
+                else if (typeof GM_setValue !== 'undefined' &&
+                    typeof GM_getResourceText === 'undefined' &&
+                    typeof GM_getResourceURL === 'undefined' &&
+                    typeof GM_openInTab === 'undefined' &&
+                    typeof GM_setClipboard === 'undefined') {
                     return 'NinjaKit';
                 } else { // Native
                     return 'Native';
@@ -75,8 +76,13 @@
         },
         domCmp: function (domain) {
             return domain === location.hostname || location.hostname.endsWith("." + domain);
+        },
+        patchToString: function () {
+            //Implementation wanted.
+            //Patch Function.prototype.toString so our modification can't be detected by the page script
         }
     };
+    //=====START CORE RUNTIME=====
     var ubo = {
         setTimeout_defuser: function (niddle, delay, scriptDropMode) {
             var uSol = function () {
@@ -187,9 +193,81 @@
             };
             var str = String(uSol).replace("{{1}}", String(niddle));
             util.dropScript(str, scriptDropMode);
+        },
+        bab_defuser: function (scriptDropMode) {
+            var uSol = function () {
+                var sto = window.setTimeout,
+                    re = /\.bab_elementid.$/;
+                window.setTimeout = function (a, b) {
+                    if (typeof a !== 'string' || !re.test(a)) {
+                        return sto(a, b);
+                    }
+                }.bind(window);
+                var signatures = [
+                    ['blockadblock'],
+                    ['babasbm'],
+                    [/getItem\('babn'\)/],
+                    [
+                        'getElementById',
+                        'String.fromCharCode',
+                        'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789',
+                        'charAt',
+                        'DOMContentLoaded',
+                        'AdBlock',
+                        'addEventListener',
+                        'doScroll',
+                        'fromCharCode',
+                        '<<2|r>>4',
+                        'sessionStorage',
+                        'clientWidth',
+                        'localStorage',
+                        'Math',
+                        'random'
+                    ]
+                ];
+                var check = function (s) {
+                    var tokens, match, j, token, pos;
+                    for (var i = 0; i < signatures.length; i++) {
+                        tokens = signatures[i];
+                        match = 0;
+                        for (j = 0, pos = 0; j < tokens.length; j++) {
+                            token = tokens[j];
+                            pos = token instanceof RegExp ? s.search(token) : s.indexOf(token);
+                            if (pos !== -1) { match += 1; }
+                        }
+                        if ((match / tokens.length) >= 0.8) { return true; }
+                    }
+                    return false;
+                };
+                var realEval = window.eval;
+                window.eval = function (a) {
+                    if (!check(a)) {
+                        return realEval(a);
+                    }
+                    var el = document.body;
+                    if (el) {
+                        el.style.removeProperty('visibility');
+                    }
+                    el = document.getElementById('babasbmsgx');
+                    if (el) {
+                        el.parentNode.removeChild(el);
+                    }
+                }.bind(window);
+            };
+            var str = String(uSol);
+            util.dropScript(str, scriptDropMode);
+        },
+        noeval: function (scriptDropMode) {
+            var uSol = function () {
+                window.eval = function (s) {
+                    console.log('Document tried to eval... \n' + s);
+                }.bind(window);
+            };
+            var str = String(uSol);
+            util.dropScript(str, scriptDropMode);
         }
     };
-    //Rules
+    //=====START RULES=====
     if (util.domCmp("thewindowsclub.com")) {
         ubo.setTimeout_defuser("[native code]");
     }
