@@ -28,6 +28,8 @@ The performance difference might be noticable on some really old devices, as tec
 
 #### Step 2: Install Userscript
 * [Click here to install](https://gitlab.com/xuhaiyang1234/AAK-Cont/raw/master/source/aak-cont-script.user.js)
+* If you are *NOT* using uBlock Origin, [click here](https://gitlab.com/xuhaiyang1234/AAK-Cont/raw/master/source/aak-cont-ubo-runtime.user.js) 
+to install uBlock Origin Runtime for AdBlock / Adblock Plus
 
 > ##### Note: [Test: BlockAdBlock](https://blockadblock.com/) [Test: Antiblock](http://antiblock.org/?p=v3&demo)
 
