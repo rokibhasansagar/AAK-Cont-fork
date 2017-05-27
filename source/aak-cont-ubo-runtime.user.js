@@ -203,6 +203,8 @@
         ubo.abort_on_property_read("adblock");
     }
     if (util.domCmp("androidcentral.com")) {
+        //Other half of the rules are in AdBlock / ABP extension filter...
+        //I coudln't think of another way...
         ubo.abort_on_property_write("adonisHash");
         ubo.setTimeout_defuser("ubo", 300);
     }
