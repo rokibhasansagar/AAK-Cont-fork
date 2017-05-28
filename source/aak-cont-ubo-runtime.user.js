@@ -268,6 +268,81 @@
         }
     };
     //=====START RULES=====
+    if (util.domCmp("finalservers.net")) {
+        ubo.abort_on_property_read("_gunggo");
+    }
+    if (util.domCmp("pwn.pl")) {
+        ubo.abort_on_property_read("adblock");
+    }
+    if (util.domCmp("hentaitake.net")) {
+        ubo.abort_on_property_read("anOptions");
+    }
+    if (util.domCmp("rarbgmirror.com")) {
+        ubo.abort_on_property_read("open");
+    }
+    if (util.domCmp("bracknellnews.co.uk")) {
+        ubo.abort_on_property_write("_sp_");
+    }
+    if (util.domCmp("hackinformer.com")) {
+        ubo.abort_on_property_write("anOptions");
+    }
+    if (util.domCmp("techdracula.com")) {
+        ubo.setTimeout_defuser("an_message_display");
+    }
+    if (util.domCmp("keshavcommoditycalls.com")) {
+        ubo.setTimeout_defuser("an_message_display");
+    }
+    if (util.domCmp("animeid.io")) {
+        ubo.setTimeout_defuser("#player");
+    }
+    if (util.domCmp("jkanime.co")) {
+        ubo.setTimeout_defuser("#player");
+    }
+    if (util.domCmp("gogoanime.ch")) {
+        ubo.setTimeout_defuser("#player");
+    }
+    if (util.domCmp("chiaanime.co")) {
+        ubo.setTimeout_defuser("#player");
+    }
+    if (util.domCmp("savetodrive.net")) {
+        ubo.setTimeout_defuser("ad");
+    }
+    if (util.domCmp("wordsense.eu")) {
+        ubo.setTimeout_defuser("ad", 2000);
+    }
+    if (util.domCmp("hackinformer.com")) {
+        ubo.setTimeout_defuser("an_message_display");
+    }
+    if (util.domCmp("futbolchile.net")) {
+        ubo.bab_defuser();
+    }
+    if (util.domCmp("freeomovie.com")) {
+        ubo.bab_defuser();
+    }
+    if (util.domCmp("appdrop.net")) {
+        ubo.bab_defuser();
+    }
+    if (util.domCmp("skmedix.pl")) {
+        ubo.bab_defuser();
+    }
+    if (util.domCmp("ps4news.com")) {
+        ubo.noeval();
+    }
+    if (util.domCmp("filechoco.net")) {
+        ubo.noeval();
+    }
+    if (util.domCmp("rule34hentai.net")) {
+        ubo.noeval();
+    }
+    if (util.domCmp("afreesms.com")) {
+        ubo.noeval();
+    }
+    if (util.domCmp("vidlox.tv")) {
+        ubo.noeval();
+    }
+    if (util.domCmp("themeslide.com")) {
+        ubo.noeval();
+    }
     if (util.domCmp("thewindowsclub.com")) {
         ubo.setTimeout_defuser("[native code]");
     }
@@ -277,12 +352,9 @@
     if (util.domCmp("gamesradar.com")) {
         ubo.abort_on_property_write("_sp_");
     }
-    if (util.domCmp("pwn.pl")) {
-        ubo.abort_on_property_read("adblock");
-    }
     if (util.domCmp("androidcentral.com")) {
         //Other half of the rules are in AdBlock / ABP extension filter...
-        //I coudln't think of another way...
+        //I coudlnt think of another way...
         ubo.abort_on_property_write("adonisHash");
         ubo.setTimeout_defuser("ubo", 300);
     }
