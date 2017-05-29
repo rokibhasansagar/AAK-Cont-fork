@@ -102,10 +102,10 @@ TrackerBlock, Kaspersky Anti-Banner, Freebox (Anti-pub), No Script, YesScript, H
 * ![Edge](images/browsers/msedge.png) Edge &#10004;
 
 ## Supported Adblockers
-* AdBlock &#10004;
-* Adblock Plus &#10004;
-* uBlock Origin &#10004;
-* Adguard ❔
+* ![AdBlock](images/adblockers/adblock.png) AdBlock &#10004;
+* ![Adblock Plus](images/adblockers/adblock_plus.png) Adblock Plus &#10004;
+* ![uBlock Origin](images/adblockers/ublock_origin.png) uBlock Origin &#10004;
+* ![Adguard](images/adblockers/adguard-temp.PNG) Adguard ❔
 
 ## Anti-Adblock scripts that we kill
 ##### Plugins (Website)
