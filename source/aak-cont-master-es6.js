@@ -105,7 +105,7 @@ var a = (function(win) {
                 } else {
                     forceDrop(txt);
                 }
-            } else if (scriptDropMode === 1) {
+            } else if (injectMode === 1) {
                 forceEval(txt);
             } else {
                 forceDrop(txt);
@@ -319,7 +319,7 @@ var a = (function(win) {
                         } catch(err) {
                             console.error("AAK failed to define property ${name}!");
                         }
-                    `);
+                    `, this.scriptInjectMode.drop);
                     
                 }
                 else {
@@ -552,7 +552,7 @@ var a = (function(win) {
                         } catch (err) { }
                     }
                 });
-                const onInsertHandler = function (insertedNode) {
+                const onInsertHandler = (insertedNode) => {
                     if (insertedNode.nodeName === "DIV" &&
                         insertedNode.id &&
                         insertedNode.id.length === 4 &&
@@ -839,7 +839,7 @@ var a = (function(win) {
                 this.addScript(`
                     window.addEventListener("${event}", window.${funcName}, ${capture});
                     delete window.${funcName};
-                `);
+                `, this.scriptInjectMode.drop);
             } else {
                 this.win.addEventListener(event, func, capture);
             }
@@ -980,6 +980,12 @@ var a = (function(win) {
             }
         },
         
+        scriptInjectMode: {
+            default: 0,
+            eval: 1,
+            drop: 2
+        },
+        
         /**
          * The unsafe window's setInterval.
          * @property setInterval
@@ -1005,7 +1011,7 @@ var a = (function(win) {
                 this.addScript(`
                     window.${name} = ${valFunctionName}();
                     delete ${valFunctionName};
-                `);
+                `, this.scriptInjectMode.drop);
             }
             else {
                 let original = this.win;
