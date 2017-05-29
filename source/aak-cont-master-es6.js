@@ -3701,91 +3701,91 @@ var ubo = (function() {
 | (Please keep in alphabetical order to avoid unnecessary duplicates.) |
 =======================================================================*/
 
-if (util.domCmp("afreesms.com")) {
+if (a.domCmp("afreesms.com")) {
     ubo.noeval();
 }
-if (util.domCmp("androidcentral.com")) {
+if (a.domCmp("androidcentral.com")) {
     //Other half of the rules are in AdBlock / ABP extension filter...
     //I couldn't think of another way...
     ubo.abort_on_property_write("adonisHash");
     ubo.setTimeout_defuser("ubo", 300);
 }
-if (util.domCmp("animeid.io")) {
+if (a.domCmp("animeid.io")) {
     ubo.setTimeout_defuser("#player");
 }
-if (util.domCmp("appdrop.net")) {
+if (a.domCmp("appdrop.net")) {
     ubo.bab_defuser();
 }
-if (util.domCmp("bracknellnews.co.uk")) {
+if (a.domCmp("bracknellnews.co.uk")) {
     ubo.abort_on_property_write("_sp_");
 }
-if (util.domCmp("chiaanime.co")) {
+if (a.domCmp("chiaanime.co")) {
     ubo.setTimeout_defuser("#player");
 }
-if (util.domCmp("filechoco.net")) {
+if (a.domCmp("filechoco.net")) {
     ubo.noeval();
 }
-if (util.domCmp("finalservers.net")) {
+if (a.domCmp("finalservers.net")) {
     ubo.abort_on_property_read("_gunggo");
 }
-if (util.domCmp("freeomovie.com")) {
+if (a.domCmp("freeomovie.com")) {
     ubo.bab_defuser();
 }
-if (util.domCmp("futbolchile.net")) {
+if (a.domCmp("futbolchile.net")) {
     ubo.bab_defuser();
 }
-if (util.domCmp("gamesradar.com")) {
+if (a.domCmp("gamesradar.com")) {
     ubo.abort_on_property_write("_sp_");
 }
-if (util.domCmp("gogoanime.ch")) {
+if (a.domCmp("gogoanime.ch")) {
     ubo.setTimeout_defuser("#player");
 }
-if (util.domCmp("hackinformer.com")) {
+if (a.domCmp("hackinformer.com")) {
     ubo.abort_on_property_write("anOptions");
     ubo.setTimeout_defuser("an_message_display");
 }
-if (util.domCmp("hentaitake.net")) {
+if (a.domCmp("hentaitake.net")) {
     ubo.abort_on_property_read("anOptions");
 }
-if (util.domCmp("jkanime.co")) {
+if (a.domCmp("jkanime.co")) {
     ubo.setTimeout_defuser("#player");
 }
-if (util.domCmp("kbb.com")) {
+if (a.domCmp("kbb.com")) {
     ubo.abort_on_property_write("KBB.DetectBlockerExtensions");
 }
-if (util.domCmp("keshavcommoditycalls.com")) {
+if (a.domCmp("keshavcommoditycalls.com")) {
     ubo.setTimeout_defuser("an_message_display");
 }
-if (util.domCmp("ps4news.com")) {
+if (a.domCmp("ps4news.com")) {
     ubo.noeval();
 }
-if (util.domCmp("pwn.pl")) {
+if (a.domCmp("pwn.pl")) {
     ubo.abort_on_property_read("adblock");
 }
-if (util.domCmp("rarbgmirror.com")) {
+if (a.domCmp("rarbgmirror.com")) {
     ubo.abort_on_property_read("open");
 }
-if (util.domCmp("rule34hentai.net")) {
+if (a.domCmp("rule34hentai.net")) {
     ubo.noeval();
 }
-if (util.domCmp("savetodrive.net")) {
+if (a.domCmp("savetodrive.net")) {
     ubo.setTimeout_defuser("ad");
 }
-if (util.domCmp("skmedix.pl")) {
+if (a.domCmp("skmedix.pl")) {
     ubo.bab_defuser();
 }
-if (util.domCmp("techdracula.com")) {
+if (a.domCmp("techdracula.com")) {
     ubo.setTimeout_defuser("an_message_display");
 }
-if (util.domCmp("themeslide.com")) {
+if (a.domCmp("themeslide.com")) {
     ubo.noeval();
 }
-if (util.domCmp("thewindowsclub.com")) {
+if (a.domCmp("thewindowsclub.com")) {
     ubo.setTimeout_defuser("[native code]");
 }
-if (util.domCmp("vidlox.tv")) {
+if (a.domCmp("vidlox.tv")) {
     ubo.noeval();
 }
-if (util.domCmp("wordsense.eu")) {
+if (a.domCmp("wordsense.eu")) {
     ubo.setTimeout_defuser("ad", 2000);
 }
