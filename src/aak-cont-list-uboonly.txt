@@ -1,17 +1,4 @@
-! Title: AAK-Cont uBlock Origin Extension Filter
-#
-# [uBlock Origin]
-# Title: AAK-Cont uBlock Origin Extension Filter
-# Author: Originally by Reek, revived by jspenguin2017
-# Version: 1.001
-# Expires: 1 days
-# License: https://creativecommons.org/licenses/by-sa/4.0/
-# Homepage: https://xuhaiyang1234.gitlab.io/AAK-Cont/
-# Support: https://gitlab.com/xuhaiyang1234/AAK-Cont/issues
-# WritingRules: https://adblockplus.org/filters
-# RedundantRules: https://arestwo.org/famlam/redundantRuleChecker.html
-# RegExpVisualizer http://www.regexper.com/
-#
+! Paste after Core to make the filter list for uBO ONLY
 ps4news.com##script:inject(noeval.js)
 finalservers.net##script:inject(abort-on-property-read.js, _gunggo)
 ally.sh##script:inject(popads.net.js)

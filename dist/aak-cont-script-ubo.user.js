@@ -1,16 +1,15 @@
-// ==UserScript==
-// @name AAK-Cont Userscript Master
-// @namespace https://userscripts.org/scripts/show/1558401
+﻿// ==UserScript==
+// @name AAK-Cont Userscript Core
 // @description Helps you keep your Ad-Blocker active, when you visit a website and it asks you to disable.
-// @author Originally by Reek, revived by jspenguin2017
-// @version 1.005
+// @author AAK-Cont contributors
+// @version 1.006
 // @encoding utf-8
-// @license https://creativecommons.org/licenses/by-sa/4.0/
+// @license GNU GPL v3
 // @icon https://gitlab.com/xuhaiyang1234/AAK-Cont/raw/master/images/icon.png
 // @homepage https://xuhaiyang1234.gitlab.io/AAK-Cont/
 // @supportURL https://gitlab.com/xuhaiyang1234/AAK-Cont/issues
-// @updateURL https://gitlab.com/xuhaiyang1234/AAK-Cont/raw/master/source/aak-cont-script.user.js
-// @downloadURL https://gitlab.com/xuhaiyang1234/AAK-Cont/raw/master/source/aak-cont-script.user.js
+// @updateURL #@#@#-PRAGMA-insert-update-PRAGMA-#@#@#
+// @downloadURL #@#@#-PRAGMA-insert-download-PRAGMA-#@#@#
 // @include http://*/*
 // @include https://*/*
 // @grant unsafeWindow
@@ -31,6 +30,8 @@
 // @run-at document-start
 // @connect *
 // ==/UserScript==
+//Paste after Meta
+
 /*jshint evil:true newcap:false*/
 /*global unsafeWindow, GM_addStyle, GM_getValue, GM_setValue, GM_xmlhttpRequest, GM_registerMenuCommand, GM_deleteValue, GM_listValues, GM_getResourceText, GM_getResourceURL, GM_log, GM_openInTab, GM_setClipboard, GM_info, GM_getMetadata, $, document, console, location, setInterval, setTimeout, clearInterval*/
 /*=====================================================

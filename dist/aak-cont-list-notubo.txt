@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
 ! Title: AAK-Cont Core Filter
-! Author: Originally by Reek, revived by jspenguin2017
+! Author: AAK-Cont contributors
 ! Version: 1.001
 ! Expires: 1 days
-! License: https://creativecommons.org/licenses/by-sa/4.0/
+! License: GNU GPL v3
 ! Homepage: https://xuhaiyang1234.gitlab.io/AAK-Cont/
 ! Support: https://gitlab.com/xuhaiyang1234/AAK-Cont/issues
 ! WritingRules: https://adblockplus.org/filters
