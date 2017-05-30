@@ -4,8 +4,7 @@
 
 ### Let's revive our beloved Anti-Adblock Killer! 
 
-### Based on [uBlock Protector (by jspenguin2017)](https://github.com/jspenguin2017/uBlockProtector) which in turn is based on 
-[Anti-Adblock Killer (by Reek)](https://github.com/reek/anti-adblock-killer)
+### Based on [uBlock Protector (by jspenguin2017)](https://github.com/jspenguin2017/uBlockProtector) which in turn is based on [Anti-Adblock Killer (by Reek)](https://github.com/reek/anti-adblock-killer)
 
 Special thanks to Giwayume for porting uBlock Protector to Greasemonkey and transpiling it to ECMAScript 6 (JavaScript 2015 standard). 
 
