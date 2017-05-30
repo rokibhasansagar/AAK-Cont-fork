@@ -1,4 +1,4 @@
-﻿// ==UserScript==
+// ==UserScript==
 // @name AAK-Cont Userscript Core
 // @description Helps you keep your Ad-Blocker active, when you visit a website and it asks you to disable.
 // @author AAK-Cont contributors
@@ -8,8 +8,8 @@
 // @icon https://gitlab.com/xuhaiyang1234/AAK-Cont/raw/master/images/icon.png
 // @homepage https://xuhaiyang1234.gitlab.io/AAK-Cont/
 // @supportURL https://gitlab.com/xuhaiyang1234/AAK-Cont/issues
-// @updateURL #@#@#-PRAGMA-insert-update-PRAGMA-#@#@#
-// @downloadURL #@#@#-PRAGMA-insert-download-PRAGMA-#@#@#
+// @updateURL https://gitlab.com/xuhaiyang1234/AAK-Cont/raw/master/dist/aak-cont-script-notubo.user.js
+// @downloadURL https://gitlab.com/xuhaiyang1234/AAK-Cont/raw/master/dist/aak-cont-script-notubo.user.js
 // @include http://*/*
 // @include https://*/*
 // @grant unsafeWindow
